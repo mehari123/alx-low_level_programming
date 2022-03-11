@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Variables, if, else and while
 
 Project done during **Full Stack Software Engineering studies** at **Holberton School**. It aims to learn about arithmetic operators, relational operators, boolean operators, comments, declaring variables and loops in **C language**.
@@ -26,3 +27,6 @@ All of the following files are programs written in C:
 | `100-print_comb3.c` | Prints all possible different combinations of two digits, separated by `,` |
 | `101-print_comb4.c` | Prints all possible different combinations of three digits, separated by `,` |
 | `102-print_comb5.c` | Prints all possible combinations of two two-digit numbers |
+=======
+this is if else
+>>>>>>> 4d649f46a0331758b8fc3af043737f9060d14786
