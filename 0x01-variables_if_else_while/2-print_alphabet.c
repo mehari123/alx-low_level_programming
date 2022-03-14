@@ -12,8 +12,8 @@ int main(void)
 	while (alpa <= 'z')
 	{
 		putchar(alpa);
-		putchar('\n');
 		alpa++;
 	}
+	putchar('\n');
 	return (0);
 }
