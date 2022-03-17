@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-	char c;
+	int c;
 
-	c = 'f';
-	printf("%d\n",  _isupper(c));
-	c = 'F';
-	printf("%d", _isupper(c));
+	c = 6;
+	printf("%d\n", _isdigit(c));
+	c = 9;
+	printf("%d", _isdigit(c));
 }
