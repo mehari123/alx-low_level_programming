@@ -1,0 +1,1 @@
+this it about pointer
