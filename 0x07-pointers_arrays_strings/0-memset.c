@@ -1,19 +1,17 @@
-#include "main.h"
+#include "holberton.h"
 /**
- * _memset - it is funnn, 
- * @s: size of char
- * @b: the char to be replaced
- * @n: the orginal string
- * Return:  char
+ * _memset - fills memory with a constant byte,
+ * @s: memory area.
+ * @b: constant byte.
+ * @n: bytes filled.
+ * Return: the pointer to dest.
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	int i;
+	unsigned int i;
 
-	while (i <= n)
-	{
-		*(s + i) = b;
-		i++;
-	}
+	for (i = 0; i < n; i++)
+		*(s + i) =  b;
+
 	return (s);
 }
