@@ -1,1 +1,1 @@
-this it about pointer
+readme for this project

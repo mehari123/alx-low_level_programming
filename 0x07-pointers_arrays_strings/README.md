@@ -1,1 +1,1 @@
-this is about pointer to pionter
+readme file for this project

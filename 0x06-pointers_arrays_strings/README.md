@@ -1,1 +1,1 @@
-this is read me for pointer
+readme file for this project
