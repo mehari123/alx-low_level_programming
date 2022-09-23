@@ -1,1 +1,1 @@
-hello world
+My first c programming README file

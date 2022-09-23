@@ -1,22 +1,28 @@
 #include <stdio.h>
 
 /**
- * main - Prints numbers between 0 to 9 and letters between a to f.
- *
- * Return: Always 0 (Success)
+ *main - prints hexadecimal base 0123456789abcdef, using putchar
+ *Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int i;
+	int n = '0';
+	int a_to_f = 'a';
 
-	for (i = 48; i < 58; i++)
+	while (n <= '9') /*print 0-9*/
 	{
-		putchar(i);
+		putchar(n);
+		n++;
 	}
-	for (i = 97; i < 103; i++)
+
+	while (a_to_f <= 'f') /*print a-f to finish hexbase*/
 	{
-		putchar(i);
+		putchar(a_to_f);
+		a_to_f++;
 	}
+
 	putchar('\n');
+
 	return (0);
 }
